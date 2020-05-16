@@ -1,9 +1,15 @@
 import React, { Component } from "react";
+import HomePage from "./pages/homepage/homepage.comp";
+
 import "./App.css";
 
 class App extends Component {
   render() {
-    return <div>The Crown Clothing Project</div>;
+    return (
+      <div>
+        <HomePage />
+      </div>
+    );
   }
 }
 
